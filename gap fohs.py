@@ -57,7 +57,8 @@ flist = [
     "فرشی که مادرت روش کونشو گذاشته بو کردم", "مادرتو جوری گاییدم که همسایه ها فکر کردن اسب ترکمن اومده خونتون"
 ]
 
-gap = 'g0F8WKC0fee8447c6997936af097f26f'
+gap = input('inter gap guid without https: ')
+sl= input('inter waiting for next massage: ')
 c = Client(session='gap fhohsh')
 def send():
     word = choice(flist)
@@ -73,7 +74,7 @@ while True:
         while True:
             # tid = new.split('.enemy')[1]
             send()
-            sleep(0.5)
+            sleep(sl)
     else:
         sleep(5)
         continue
